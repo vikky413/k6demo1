@@ -10,7 +10,7 @@ export const options = {
     }
   },
      vus: 10,
-     duration: '1m',
+     duration: '2m',
      thresholds: {
         http_req_failed: ['rate<0.01'], // http errors should be less than 1%
         http_req_duration: ['p(95)<8001'], // 95% of requests should be below 600ms
